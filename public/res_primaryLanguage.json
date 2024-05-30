@@ -1,74 +1,243 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋I'm Ngo Van Quan. I'm working with front-end frameworks React. Thank you 💜",
+      "description": "👋I'm Ngo Van Quan. I am 20 years old. As an aspiring progammer passionate about technology. Proficient in HTML, CSS and Javascript, I particularly enjoy working with React for building dynamic web interfaces. I'm a self-motivated learner, adept at creative problem-solving, and value collaboration in team environments. Eager to contribute to  exciting projects, I'm seeking opportunities to apply my skills and grow professionally.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Experience",
+        "contact":"Contact"
       }
     },
     "projects": [
       {
         "title": "Jira",
         "startDate": "2022",
-        "description": "Cloning in Jira refers to creating an exact copy of an existing issue. The clone inherits all the fields, including summaries, descriptions, attachments, and linked issues, but it gets a new issue key. This helps streamline workflow management by enabling quick duplication of tasks.",
+        "description": "Cloning in Jira refers to creating an exact copy of an existing issue. The clone inherits all the fields, including summaries, descriptions, attachments, and linked issues, but it gets a new issue key. This helps streamline workflow management by enabling quick duplication of tasks. You can test the as guest with email:'test@gmail.com', password:'test'",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/jira/jira-project-1.png",
+          "images/jira/jira-project-2.png"
+        ],
+        "url": "https://project-jira-bc34.vercel.app/login",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "react"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "bootstrap"
+          },
+          {
+            "class": "devicon-antdesign-plain",
+            "name": "Antd"
+          },
+          {
+            "class": "devicon-axios-plain",
+            "name": "axios"
+          },
+          {
+            "class": "devicon-fastapi-plain",
+            "name": "api"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "redux"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "redux-thunk"
+          }
+        ]
+      },
+       {
+        "title": "Air-bnb-api",
+        "startDate": "2023",
+        "description": "Air-bnb-api is a project that simulates the Airbnb application, providing an online platform for short-term home rentals. This project recreates the main features of Airbnb, allowing users to register, log in, search, and book accommodations. With a user-friendly interface and flexible accommodation management system, Air-bnb-api delivers a convenient and easy online home rental experience.",
+        "images": [
+          "images/air-bnb-api/air-bnb-api.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-bcrypt-plain",
+            "name": "bcrypt"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-nodejs-plain",
+            "name": "Node js"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-mongodb-plain",
+            "name": "mongodb"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "express"
+          },
+          {
+            "class": "devicon-swagger-plain",
+            "name": "swagger"
+          }
+        ]
+      },
+      {
+        "title": "Youtube-clone",
+        "startDate": "2023",
+        "description": "The YouTube Clone is a video-sharing platform that allows users to upload, watch, and interact with video content. This application replicates the core functionalities of YouTube, providing a user-friendly interface.",
+        "images": [
+          "images/youtube-clone/youtube-clone-1.png",
+          "images/youtube-clone/youtube-clone-2.png"
+        ],
+        "url": "https://youtube-clone-sigma-sandy.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "react"
+          },
+          {
+            "class": "devicon-axios-plain",
+            "name": "axios"
+          },
+          {
+            "class": "devicon-fastapi-plain",
+            "name": "api"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "redux"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "redux-thunk"
+          }
+        ]
+      },
+      {
+        "title": "Random quotes machine",
+        "startDate": "2024",
+        "description": "The Random Quotes Machine is a dynamic and interactive web application designed to inspire and entertain users with a diverse array of quotes. Each time the user interacts with the machine, it generates a new, random quote from a rich database containing quotes from various authors, philosophers, celebrities, and historical figures.",
+        "images": [
+          "images/random-quotes/random-quotes-machine-project.png"
+        ],
+        "url": "https://random-quote-machine-eight-ecru.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "react"
+          },
+          {
+            "class": "devicon-axios-plain",
+            "name": "axios"
+          },
+          {
+            "class": "devicon-fastapi-plain",
+            "name": "api"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "redux"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "redux-thunk"
+          }
+        ]
+      },
+      {
+        "title": "Shortly-link",
+        "startDate": "2023",
+        "description": "Shortly-Link, your ultimate solution for URL shortening and link management. Whether you’re a marketer, business owner, or individual looking to streamline your online presence, Shortly-Link offers a robust suite of tools to make your links more manageable and impactful.",
+        "images": [
+          "images/shortly-link/shortly-link-1.png",
+          "images/shortly-link/shortly-link-2.png"
+        ],
+        "url": "https://random-quote-machine-eight-ecru.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "react"
+          },
+          {
+            "class": "devicon-axios-plain",
+            "name": "axios"
+          },
+          {
+            "class": "devicon-fastapi-plain",
+            "name": "api"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "redux"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "redux-thunk"
+          }
+        ]
+      },
+      {
+        "title": "My Porfolio",
+        "startDate": "2024",
+        "description": "My Portfolio: Showcasing My Journey and Work",
+        "images": [
+          "images/portfolio/portfolio-1.png",
+          "images/portfolio/portfolio-2.png",
+          "images/portfolio/portfolio-3.png"
+        ],
+        "url": "https://portfolio-react-dev-one.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "react"
+          },
+          {
+            "class": "devicon-sass-original",
+            "name": "sass"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "bootstrap"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Cybersoft",
+        "title": "FullStack developer",
+        "years": "5.2022 - 1.2023",
         "mainTech": [
-          "Angular 8/9/10"
+          "React, Nodejs 7/8"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
-          "JavaScript",
+          "SASS",
+          "ES6",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "JavaScript",
+          "TypeScript"
         ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+      },{
+        "company": "Innorix",
+        "title": "Fresher Front-End Developer",
+        "years": "2.2024 - 4-2024",
         "mainTech": [
-          "Angular 7/8"
+          "React 8/9/10"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "REST API",
+          "Ejs",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Bootstrap",
+          "Tabulator",
+          "MySQL",
+          "ExpressJs",
+          "Nodejs-ORM",
+          "Docker"
         ]
       }
+      
     ]
   }

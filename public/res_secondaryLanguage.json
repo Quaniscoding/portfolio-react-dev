@@ -1,118 +1,242 @@
 {
   "basic_info": {
-    "description_header": "Xin chào",
-    "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+    "description_header": "Hi",
+    "description": "👋 Tôi là Ngô Văn Quân. Tôi 20 tuổi. Là một lập trình viên đam mê công nghệ. Thành thạo HTML, CSS và Javascript, tôi đặc biệt thích làm việc với React để xây dựng các giao diện web động. Tôi là một người học tự động, có khả năng giải quyết vấn đề sáng tạo và đánh giá cao sự hợp tác trong môi trường làm việc nhóm. Tôi mong muốn được đóng góp cho các dự án thú vị, và đang tìm kiếm cơ hội để áp dụng kỹ năng của mình và phát triển chuyên môn.",
     "section_name": {
-      "about": "About me",
-      "projects": "Projects",
-      "skills": "Skills",
-      "experience": "Experience"
+      "about": "Về tôi",
+      "projects": "Dự án",
+      "skills": "Kỹ năng",
+      "experience": "Kinh nghiệm"
     }
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "title": "Jira",
+      "startDate": "2022",
+      "description": "Cloning in Jira đề cập đến việc tạo ra một bản sao chính xác của một vấn đề hiện có. Bản sao này kế thừa tất cả các trường, bao gồm tóm tắt, mô tả, tệp đính kèm và các vấn đề liên kết, nhưng có khóa vấn đề mới. Điều này giúp tối ưu hóa quản lý công việc bằng cách cho phép nhân đôi nhanh chóng các nhiệm vụ. Bạn có thể kiểm tra dưới dạng khách với email: 'test@gmail.com', mật khẩu: 'test'.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/jira/jira-project-1.png",
+        "images/jira/jira-project-2.png"
+      ],
+      "url": "https://project-jira-bc34.vercel.app/login",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "react"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "bootstrap"
+        },
+        {
+          "class": "devicon-antdesign-plain",
+          "name": "Antd"
+        },
+        {
+          "class": "devicon-axios-plain",
+          "name": "axios"
+        },
+        {
+          "class": "devicon-fastapi-plain",
+          "name": "api"
+        },
+        {
+          "class": "devicon-redux-plain",
+          "name": "redux"
+        },
+        {
+          "class": "devicon-redux-plain",
+          "name": "redux-thunk"
+        }
+      ]
+    },
+     {
+      "title": "Air-bnb-api",
+      "startDate": "2023",
+      "description": "Air-bnb-api là một dự án mô phỏng ứng dụng Airbnb, cung cấp một nền tảng trực tuyến cho thuê nhà ngắn hạn. Dự án này tái tạo các tính năng chính của Airbnb, cho phép người dùng đăng ký, đăng nhập, tìm kiếm, và đặt chỗ ở. Với giao diện thân thiện và hệ thống quản lý chỗ ở linh hoạt, Air-bnb-api mang lại trải nghiệm thuê nhà trực tuyến tiện lợi và dễ dàng.",
+      "images": [
+        "images/air-bnb-api/air-bnb-api.png"
       ],
       "url": "",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-bcrypt-plain",
+          "name": "bcrypt"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-nodejs-plain",
+          "name": "Node js"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-mongodb-plain",
+          "name": "mongodb"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "express"
+        },
+        {
+          "class": "devicon-swagger-plain",
+          "name": "swagger"
         }
       ]
     },
     {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "title": "Youtube-clone",
+      "startDate": "2023",
+      "description": "YouTube Clone là một nền tảng chia sẻ video cho phép người dùng tải lên, xem và tương tác với nội dung video. Ứng dụng này sao chép các chức năng chính của YouTube, cung cấp giao diện thân thiện với người dùng.",
       "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
+        "images/youtube-clone/youtube-clone-1.png",
+        "images/youtube-clone/youtube-clone-2.png"
       ],
-      "url": "https://github.com",
+      "url": "https://youtube-clone-sigma-sandy.vercel.app/",
       "technologies": [
         {
-          "class": "devicon-react-original",
-          "name": "React"
+          "class": "devicon-react-plain",
+          "name": "react"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "devicon-axios-plain",
+          "name": "axios"
+        },
+        {
+          "class": "devicon-fastapi-plain",
+          "name": "api"
+        },
+        {
+          "class": "devicon-redux-plain",
+          "name": "redux"
+        },
+        {
+          "class": "devicon-redux-plain",
+          "name": "redux-thunk"
         }
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "title": "Random quotes machine",
+      "startDate": "2024",
+      "description": "The Random Quotes Machine là một ứng dụng web động và tương tác được thiết kế để truyền cảm hứng và giải trí người dùng với nhiều trích dẫn đa dạng. Mỗi lần người dùng tương tác với máy, nó sẽ tạo ra một trích dẫn mới, ngẫu nhiên từ cơ sở dữ liệu phong phú chứa các trích dẫn từ nhiều tác giả, triết gia, người nổi tiếng và nhân vật lịch sử",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/random-quotes/random-quotes-machine-project.png"
       ],
-      "url": "https://github.com",
+      "url": "https://random-quote-machine-eight-ecru.vercel.app/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-react-plain",
+          "name": "react"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-axios-plain",
+          "name": "axios"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-fastapi-plain",
+          "name": "api"
+        },
+        {
+          "class": "devicon-redux-plain",
+          "name": "redux"
+        },
+        {
+          "class": "devicon-redux-plain",
+          "name": "redux-thunk"
+        }
+      ]
+    },
+    {
+      "title": "Shortly-link",
+      "startDate": "2023",
+      "description": "Shortly-Link, giải pháp tối ưu cho việc rút ngắn URL và quản lý liên kết của bạn. Cho dù bạn là nhà tiếp thị, chủ doanh nghiệp, hay cá nhân muốn tối ưu hóa sự hiện diện trực tuyến của mình, Shortly-Link cung cấp một bộ công cụ mạnh mẽ để làm cho các liên kết của bạn dễ quản lý và có tác động hơn.",
+      "images": [
+        "images/shortly-link/shortly-link-1.png",
+        "images/shortly-link/shortly-link-2.png"
+      ],
+      "url": "https://random-quote-machine-eight-ecru.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "react"
+        },
+        {
+          "class": "devicon-axios-plain",
+          "name": "axios"
+        },
+        {
+          "class": "devicon-fastapi-plain",
+          "name": "api"
+        },
+        {
+          "class": "devicon-redux-plain",
+          "name": "redux"
+        },
+        {
+          "class": "devicon-redux-plain",
+          "name": "redux-thunk"
+        }
+      ]
+    },
+    {
+      "title": "My Porfolio",
+      "startDate": "2024",
+      "description": "Trang Portfolio: Trưng Bày Hành Trình và Công Việc Của Tôi",
+      "images": [
+        "images/portfolio/portfolio-1.png",
+        "images/portfolio/portfolio-2.png",
+        "images/portfolio/portfolio-3.png"
+      ],
+      "url": "https://portfolio-react-dev-one.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "react"
+        },
+        {
+          "class": "devicon-sass-original",
+          "name": "sass"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "bootstrap"
         }
       ]
     }
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
+      "company": "Cybersoft",
+      "title": "Lập Trình Viên FullStack",
+      "years": "5.2022 - 1.2023",
       "mainTech": [
-        "Angular 8/9/10"
+        "React, Nodejs 7/8"
       ],
       "technologies": [
         "REST API",
-        "RxJS",
-        "JavaScript",
+        "SASS",
+        "ES6",
         "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "JavaScript",
+        "TypeScript"
       ]
-    },
-    {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
+    },{
+      "company": "Innorix",
+      "title": "Lập Trình Viên Fresher Front-End",
+      "years": "2.2024 - 4-2024",
       "mainTech": [
-        "Angular 7/8"
+        "React 8/9/10"
       ],
       "technologies": [
-        "RxJS",
-        "Django",
-        "PHP",
+        "REST API",
+        "Ejs",
         "JavaScript",
-        "DHTMLX Gantt"
+        "Bootstrap",
+        "Tabulator",
+        "MySQL",
+        "ExpressJs",
+        "Nodejs-ORM",
+        "Docker"
       ]
     }
+    
   ]
 }

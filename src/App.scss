@@ -71,7 +71,15 @@ header {
 	margin: 5px 0 5px 0;
 	border-radius: 8px;
 }
-
+.skills-tile:hover,.vertical-timeline-element-content:hover{
+	-webkit-transform: scale(1.01);
+	-moz-transform: scale(1.01);
+	transform: scale(1.01);
+	z-index: 10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
 .language {
 	font-size: 25px;
 	background-color: #e9d5a1;
@@ -400,9 +408,79 @@ header h1 {
 	text-align: center;
 	position: relative;
 }
-
-footer {
+#contact {
 	background: #1F1F1F;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10%;
+}
+#contact span{
+	font-size: 1.75rem;
+	color: #fff;
+	text-decoration: none;
+}
+#contact a{
+	font-size: 1.75rem;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 10px;
+}
+#contact a:hover{
+	color: rgb(174, 148, 79);
+	text-decoration: none;
+	-webkit-transform: scale(1.01);
+	-moz-transform: scale(1.01);
+	transform: scale(1.01);
+	z-index: 10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+#contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.contact-data {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+#contact svg{
+	color: #fff;
+}
+.contact-item .icon {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+    .contact-data {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contact-item {
+        margin: 0 15px;
+    }
+}
+footer {
+	background: #efe1bd;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
@@ -413,13 +491,14 @@ footer {
 }
 
 footer a,
-footer a:visited {
-	color: #fff;
+footer a:visited,
+footer small {
+	color: #1F1F1F;
 }
 
 footer a:hover,
 footer a:focus {
-	color: #fff;
+	color: #1F1F1F;
 }
 
 .social-links {

@@ -14,7 +14,10 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "email":"vq.2509.2003@gmail.com",
+      "phone":"0945797133",
+      "github":"https://github.com/Quaniscoding",
+      "image": "MyImage.png"
     },
     "skills": {
       "icons": [
@@ -27,11 +30,6 @@
           "name": "CSS 3",
           "class": "devicon-css3-plain",
           "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
         },
         {
           "name": "JavaScript",
@@ -49,8 +47,18 @@
           "level": "85"
         },
         {
+          "name": "TalwindCss",
+          "class": "devicon-tailwindcss-original",
+          "level": "85"
+        },
+        {
           "name": "MongoDb",
           "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "Github",
+          "class": "devicon-github-original",
           "level": "60"
         }
       ]
