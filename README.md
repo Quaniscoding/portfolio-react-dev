@@ -20,7 +20,7 @@ at GitHub. Check live preview(link below).
 
 Check live demonstration <a href="https://portfolio-react-dev-one.vercel.app/"><strong>here</strong></a>
 
-<img width="100%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
+<img width="100%" src="./public/images/portfolio/portfolio-1.png" alt="react frontend dev portfolio preview"/>
 
 <h3>:books: Getting started</h3>
 
