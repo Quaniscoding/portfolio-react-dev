@@ -25,7 +25,7 @@ class Contact extends Component {
                         </div>
                         <div className="contact-item">
                             <FontAwesomeIcon icon={faEnvelope} className="icon" />
-                            <span>Email</span>
+                            <span>Mail</span>
                             <a href={`mailto:${email}`}>{email}</a>
                         </div>
                         <div className="contact-item">
