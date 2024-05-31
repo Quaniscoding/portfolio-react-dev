@@ -217,7 +217,11 @@
           "ES6",
           "Bootstrap",
           "JavaScript",
-          "TypeScript"
+          "TypeScript",
+          "MySQL",
+          "ExpressJs",
+          "Nodejs-ORM",
+          "Docker"
         ]
       },{
         "company": "Innorix",
@@ -231,11 +235,7 @@
           "Ejs",
           "JavaScript",
           "Bootstrap",
-          "Tabulator",
-          "MySQL",
-          "ExpressJs",
-          "Nodejs-ORM",
-          "Docker"
+          "Tabulator"
         ]
       }
       
