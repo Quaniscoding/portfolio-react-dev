@@ -14,12 +14,12 @@
       {
         "title": "Jira",
         "startDate": "2022",
-        "description": "Cloning in Jira refers to creating an exact copy of an existing issue. The clone inherits all the fields, including summaries, descriptions, attachments, and linked issues, but it gets a new issue key. This helps streamline workflow management by enabling quick duplication of tasks. You can test the as guest with email:'test@gmail.com', password:'test'",
+        "description": "Cloning in Jira refers to creating an exact copy of an existing issue. The clone inherits all the fields, including summaries, descriptions, attachments, and linked issues, but it gets a new issue key. This helps streamline workflow management by enabling quick duplication of tasks. You can test the as guest with email:'test@gmail.com', password:'test'. If yot want test full function follow Readme.md.",
         "images": [
           "images/jira/jira-project-1.png",
           "images/jira/jira-project-2.png"
         ],
-        "url": "https://project-jira-bc34.vercel.app/login",
+        "url": "https://jira-clone-ruby.vercel.app/login",
         "technologies": [
           {
             "class": "devicon-react-plain",
@@ -58,7 +58,7 @@
         "images": [
           "images/air-bnb-api/air-bnb-api.png"
         ],
-        "url": "",
+        "url": "https://github.com/Quaniscoding/air-bnb-api",
         "technologies": [
           {
             "class": "devicon-bcrypt-plain",
@@ -153,7 +153,7 @@
           "images/shortly-link/shortly-link-1.png",
           "images/shortly-link/shortly-link-2.png"
         ],
-        "url": "https://random-quote-machine-eight-ecru.vercel.app/",
+        "url": "https://shortly-link-chi.vercel.app/HomePage",
         "technologies": [
           {
             "class": "devicon-react-plain",
