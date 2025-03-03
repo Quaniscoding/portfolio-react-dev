@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import reactIcon from "@iconify/icons-logos/react";
-
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
@@ -27,11 +24,11 @@ class About extends Component {
                     height="250px"
                     src={profilepic}
                     alt="Avatar placeholder"
+                    style={{ paddingBottom: "10px" }}
                   />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+                  <i class="devicon-react-original" style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}></i>
+                  <i class="devicon-nodejs-plain" style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}></i>
+                  <i class="devicon-nextjs-original-wordmark" style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}></i>
                 </span>
               </div>
             </div>

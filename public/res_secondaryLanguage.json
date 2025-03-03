@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 Tôi là Ngô Văn Quân. Tôi 20 tuổi. Là một lập trình viên đam mê công nghệ. Thành thạo HTML, CSS và Javascript, tôi đặc biệt thích làm việc với React để xây dựng các giao diện web động. Tôi là một người học tự động, có khả năng giải quyết vấn đề sáng tạo và đánh giá cao sự hợp tác trong môi trường làm việc nhóm. Tôi mong muốn được đóng góp cho các dự án thú vị, và đang tìm kiếm cơ hội để áp dụng kỹ năng của mình và phát triển chuyên môn.",
+    "description": "👋 Tôi là Ngô Văn Quân, 22 tuổi, một lập trình viên đam mê công nghệ. Thành thạo HTML, CSS, JavaScript và đặc biệt yêu thích làm việc với React để xây dựng các giao diện web động. Bên cạnh đó, tôi cũng có kinh nghiệm với Node.js, Next.js và Express.js, giúp tôi phát triển các ứng dụng web từ frontend đến backend.Là một người học tự động với tư duy giải quyết vấn đề sáng tạo, tôi đánh giá cao sự hợp tác trong môi trường làm việc nhóm. Tôi mong muốn được đóng góp vào các dự án thú vị, áp dụng kỹ năng của mình và tiếp tục phát triển chuyên môn.",
     "section_name": {
       "about": "Về tôi",
       "projects": "Dự án",
@@ -47,6 +47,35 @@
         {
           "class": "devicon-redux-plain",
           "name": "redux-thunk"
+        }
+      ]
+    },
+    {
+      "title": "Jira Api",
+      "startDate": "2024",
+      "description": "Dự án công việc quản lý hệ thống mô phỏng API, giúp tôi ghi lại quá trình phát hành phát triển và các công việc đã thực hiện.",
+      "images": ["images/jira-api/jira-api.png"],
+      "url": "https://jira-main.onrender.com/swagger/",
+      "technologies": [
+        {
+          "class": "devicon-bcrypt-plain",
+          "name": "bcrypt"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node js"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "mongodb"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "express"
+        },
+        {
+          "class": "devicon-swagger-plain",
+          "name": "swagger"
         }
       ]
     },
